@@ -20,8 +20,8 @@ public class App {
         // Variabel untuk Latihan 2
         String namaProdi = "Cyber Security";
         int idProdi = 999;
-        int idStrata = 2; // S1 (Sarjana) - ID valid dari tabel strata [cite: 1460]
-        int idJurusan = 21; // ID Jurusan Informatika - ID valid dari tabel jurusan [cite: 1451]
+        int idStrata = 2; // S1 (Sarjana) - ID valid dari tabel strata 
+        int idJurusan = 21; // ID Jurusan Informatika - ID valid dari tabel jurusan 
 
         // Gunakan try-with-resources agar objek SQL tertutup otomatis
         try (Connection conn = DriverManager.getConnection(url, username, password)) {
